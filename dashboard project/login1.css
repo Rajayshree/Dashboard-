@@ -1,0 +1,293 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+#sidebar .brand h2 span img{
+    width: 20%;
+    margin: 0 auto;
+}
+.img-responsive{
+    display: block;
+    max-width=100%;
+    height: auto;
+
+}
+.wb{
+    color:white;
+/*    font-size: 20px;*/
+
+}
+.db{
+    color:green;
+}
+i.fas.fa-tshirt{
+    color:white;
+}
+i.fa.fa-bars{
+    color:green;
+}
+
+.container{
+    max-width: 1339px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100px;
+}
+.clear{
+    clear:both;
+}
+
+section#sidebar{
+    width:20%;
+    background:linear-gradient(to top, lightblue,green);
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    transition: all .4s ease;
+}
+#sidebar.active{
+    left:0px;
+}
+.brand{
+    height: fit-content;
+    padding: 30px 50px;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+.menu ul li {
+
+    list-style: none;
+}
+.menu ul li span{
+    padding-left: 10px;
+    text-decoration: none;
+    
+
+}
+.menu{
+    margin-top: 150px;
+    position: absolute;
+    color: crimson;
+}
+.menu li{
+    transition: all 0.5s ease;
+}
+.menu li:hover{
+    background-color: darkblue;
+}
+.menu a.active{
+    background: darkblue;
+    padding-top: 1rem;
+}
+section#main-content{
+    width:80%;
+    float:right;
+
+}
+header.main-header{
+    z-index: +1;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px #bbb;
+    width: 100%;
+    height:80px;
+    top:0;
+   
+}
+.header-left{
+    float: left;
+    width: 32%;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.header-right
+    float: left;
+    width: 10%;
+    padding-left: 20px;
+    padding-top: 20px;
+        
+}
+
+.p1{
+    color:green;
+}
+
+.header-right p{
+    font-size: 18px;
+    color: green;
+    padding-left: 60%;
+    padding-top:20px;
+    /*float:right;*/
+    /*display:block;*/
+
+}
+section{
+    position:relative;
+    width: 100%;
+    height:100vh;
+    display: flex;
+}
+/*
+.imgbox{
+    position: relative;
+    width:50%;
+    height:100%;
+}
+.imgbox:before{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(225deg,to top,violet,pink);
+    z-index: 1;
+  
+}
+.imgbox img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+}
+*/
+
+.contentbox{
+/*    display: flex;*/
+    width: 50%;
+    margin: 80px 100px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foembox{
+    width:50%;
+}
+/*
+form{
+    margin-top: 150px;
+    margin: 150px auto;
+}
+*/
+.formbox h2{
+    color:cadetblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom:20px;
+    border-bottom: 4px solid cadetblue;
+    display:inline-block;
+    
+}
+.inputbox{
+    margin-bottom: 20px;
+    
+}
+.inputbox span{
+    margin-bottom: 5px;
+    display:inline-block;
+    color:cadetblue;
+    font-weight:300;
+    letter-spacing: 1px;
+    
+}
+.inputbox input{
+    width:100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight:400;
+    border:1px solid grey;
+    letter-spacing: 1px;
+    color:cadetblue;
+    background: transparent;
+    border-radius:30px;
+    
+}
+.inputbox input[type="submit"]{
+    background:green;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
+    
+}
+.inputbox input[type="submit"]:hover{
+    background: blue;
+    
+}
+.remember{
+    margin-bottom: 10px;
+    color:grey;
+    font-weight: 400;
+    font-size:14px;
+}
+.inputbox p{
+    color:grey;
+    
+}
+.inputbox p a{
+    color:green;
+}
+
+.formbox h3{
+    color:grey;
+    text-align: center;
+    margin: 80px 0 10px;
+    font-weight:500;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i{
+    list-style: none;
+    width:30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+     background: green;
+    color:white;
+    border-radius: 50%;
+    align-items: center;
+     margin: 0 7px;
+    cursor:pointer;
+    
+}
+.icon i:hover{
+    background: blue;
+}
+@media (max-width:768px)
+    {
+        section.imgbox{
+          position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            
+        }
+})
